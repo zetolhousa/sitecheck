@@ -24,7 +24,7 @@ def main():
                 else:
                     print(line, " >> Error occured")
             except requests.exceptions.MissingSchema:
-                print(line, " >> The url format is incorrect")
+                print(line, " >> The url format is incorrect or the page does not exist")
 
 if __name__ == '__main__':
     main()              
