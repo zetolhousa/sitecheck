@@ -8,6 +8,7 @@ def noblank(f):
         line = l.rstrip()
         if line:
             yield line
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("urlfile", help="The file containing urls")
